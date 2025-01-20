@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>¡Contactanos!</h1>
+    </header>
+    <main>
+        <section>
+            <form action="">
+                <fieldset><!-- Nos permite agrupar pot campos -->
+                    <legend>Datos Basicos para Registro</legend>
+
+                   Nombre(s): <input type="text" placeholder="Hilary Yuuki" required> <br><br>
+                   Apellidos: <input type="text" placeholder="Hernandez" required><br><br>
+                   Edad: <input type="number" placeholder="18" min="0" max="90" required> <br><br>
+                   Correo Electronico: <input type="email" placeholder="hilary.32@gmail.com"><br><br>
+                   Telefono: <input type="tel" name="" id="" placeholder="5583485932"><br><br>
+                   
+                  Ciudad: <select name="ciudad">
+                    <option value="">CDMX</option>
+                    <option value="">Sinaloa</option>
+                    <option value="">Veracruz</option>
+                    <option value="">Tlaxcala</option>
+                    <option value="">Oaxaca</option>
+                    <option value="">Monterrey</option>
+                    <option value="">Guadalajara</option>
+
+                </select><br><br>
+                <button type="submit">Enviar :D </button><br><br>
+
+
+                
+                 <fieldset>
+                
+                    <legend>Vota por una nueva categoria para el blog</legend>
+                   
+                    <label for="terror">
+                     <input type="radio" name="votacion" id="terror">Terror</label>
+                    
+                    <label for="comedia">
+                     <input type="radio" name="votacion" id="comedia">Comedia</label>
+                     
+                     <label for="clasicos">
+                     <input type="radio" name="votacion" id="clasicos">Clasicos</label>
+                     
+                     <label for="literatura-mexicana">
+                    <input type="radio" name="votacion" id="literatura-mexicana">Lieratura Mexicana</label><br><br>
+                    
+                    <button type="submit">Enviar </button>
+                
+                    
+
+                 </fieldset>
+                 
+            </form>
+        </section>
+    </main>
+</body>
+</html>
