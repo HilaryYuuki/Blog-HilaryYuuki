@@ -21,9 +21,26 @@ h3{
     color: #8762B5;
 }
 
-.titulo-de-lista{
-    font-family: 'Oswald', sans-serif;
+.titulo-de-lista-ordenada{
+    font-family: 'Press Start 2P';
     font-weight: bolder;
    color: #B79BE1;
 }
 
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imagen-post{
+    
+    width: 550px;
+     height: 200px;
+     
+}
+
+.titulo-de-lista-desordenada{
+    font-family: 'Press Start 2P';
+    font-weight: bolder;
+   color: #F51C6A;
+  
+}
